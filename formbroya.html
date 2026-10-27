@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <form name="giris" action="ders-programi.html" method="get" >
-            <label>Ad:</label> <input type="text"/> <br/><br/>
-            <label>Soyad: </label> <input type="text"/> <br/><br/>
-            <input type="submit" value="Gönder"/>
-        </form
+        <form action="anasayfa.html" method="post">
+            <label>Ad Soyad:</label><input type="text" name="ad"><br/><br/>
+                <label>e-Posta:</label><input type="text" name="eposta"><br/><br/>
+                <label>Şifre:</label><input type="text" name="eposta"><br/><br/>
+                <input type="radio" name="cinsiyet" value="erkek" checked="on"> Erkek<br/><br/>
+                <input type="radio" name="cinsiyet" value="kadin"> Kadın<br/><br/>
+                <input type="hidden" name="ipAdresi" value="212.175.132.130"/>
+                <input type="submit" value="Gönder"> 
+        </form>
     </body>
 </html>
